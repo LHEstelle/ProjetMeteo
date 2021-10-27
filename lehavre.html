@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lehavre.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--ICI CDN BOOTSRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <title>Meteolehavre</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="ms-2 ">MétéoLHP7</h1>
+    </div>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="opacity-50 container-fluid">
+            <button class="navbar-toggler bg-light " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 recherche  " type="search" placeholder="Recherchez votre ville"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="row text-white text-center pt-4 ">
+        <h1 class="ville">Le Havre</h1>
+        <h1 class="temperature">13°</h1>
+        <h2 class="description">Nuageux</h2>
+        <h2 Class="MaxMin">Max.16° Min.12°</h2>
+
+        <!-- Container meteo 1 journée -->
+        <div class="container  mt-3  ">
+            <div class="row troisjours ms-5 me-5">
+
+
+                <div class="col-lg ">
+                    <h3>04h00</h3>
+                    <i class="bi bi-cloud-rain display-2 "></i>
+                    <p class="mt-2">7°</p>
+                    <p class="">Pluie légère</p>
+                </div>
+
+                <div class="col-lg ">
+                    <h3>12h00</h3>
+                    <i class="bi bi-brightness-high display-2 "></i>
+                    <p class="mt-2">16°</p>
+                    <p class="">ensoleillé</p>
+                </div>
+
+                <div class="col-lg">
+                    <h3>20h00</h3>
+                    <i class="bi bi-cloud-moon display-2 "></i>
+                    <p class="mt-2">13°</p>
+                    <p class="">Ciel voilé</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <!-- container meteo 3/5 jours  -->
+        <div class="container  mt-5  ">
+            <div class="row troisjours ms-5 me-5s ">
+
+                <div class="col-lg">
+                    <h3>Mar. 26</h3>
+                    <i class="bi bi-cloud-rain display-1 "></i>
+                    <p class="mt-2">Max. 16° Min.11°</p>
+                    <p class="">Pluie légère</p>
+                </div>
+
+                <div class="col-lg">
+                    <h3>Mer. 27</h3>
+                    <i class="bi bi-brightness-high display-1 "></i>
+                    <p class="mt-2">Max. 17° Min.11°</p>
+                    <p class="">ensoleillé</p>
+                </div>
+
+                <div class="col-lg">
+                    <h3>Jeu. 28</h3>
+                    <i class="bi bi-cloud-rain display-1 "></i>
+                    <p class="mt-2">Max. 18° Min.12°</p>
+                    <p class="">Globalement ensoleillé</p>
+                </div>
+
+                <div class="col-lg">
+                    <h3>Ven. 29</h3>
+                    <i class="bi bi-cloud-sun display-1 "></i>
+                    <p class="mt-2">Max. 15° Min.11°</p>
+                    <p class="">Averse de pluie</p>
+                </div>
+                <div class="col-lg">
+                    <h3>Sam. 30</h3>
+                    <i class="bi bi-cloud-sun display-1 "></i>
+                    <p class="mt-2">Max. 16° Min.13°</p>
+                    <p class="">Averse de pluie</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--ICI SCRIPT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
