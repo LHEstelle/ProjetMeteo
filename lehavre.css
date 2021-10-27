@@ -1,0 +1,40 @@
+.header {
+    background-color: #483BE7;
+    color: white;
+}
+
+body{
+
+    background-image: url("img/Photoapplimeteo/metero\ nuageux.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+input.recherche {
+
+    background-color: #c4c4c4;
+
+}
+
+.ville {
+
+
+}
+
+.temperature{
+
+}
+
+.description{
+
+}
+
+.Maxmin{
+
+}
+
+.troisjours{
+background-color: rgba(255,255, 255, 0.4);
+border-radius: 2rem;
+
+}
