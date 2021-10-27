@@ -1,0 +1,47 @@
+.recherchersm{
+    margin-left: 3rem;
+    border-radius: 2em;
+ }
+
+ .lh{
+     background-image: url("img/meteo_nuageux.jpeg.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     border-radius: 1em;
+ }
+ 
+ .papeete{
+     background-image: url("img/meteo_nuit.jpeg.jpg");
+     /* background-repeat: no-repeat; */
+     background-position: center;
+     background-size: cover;
+     border-radius: 1em;
+ }
+
+ .paris{
+     background-image: url("img/ensoleillé.jpeg.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     border-radius: 1em;
+ }
+
+ .marseille{
+     background-image: url("img/soleil.jpeg.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     border-radius: 1em;
+ }
+ 
+ .bolbec{
+     background-image: url("img/Feuille_dautomne.jpeg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     border-radius: 1em;
+ }
+
+ 
+     
