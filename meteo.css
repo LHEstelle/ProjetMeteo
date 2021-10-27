@@ -1,0 +1,68 @@
+body{
+    background-image: url("img/Feuille_dautomne.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    background-color: #483BE7;
+    color: white;
+}
+ 
+.headmd{
+    padding-bottom: 4rem;
+}
+
+.corps{
+    display: flex;
+    flex-direction:column;
+   align-items:center;
+   justify-content: center;
+   padding-top: 10rem;
+}
+
+@media (orientation: landscape) {
+    .corpsmd {
+        display: red;
+    }
+  }
+
+
+
+.titremd{
+    display: flex;
+   justify-self: center;
+   
+}
+
+input.recherche {
+    background-color:#C4C4C4;
+    color:white;
+    opacity: 0.7;
+    border-radius: 2em;
+}
+
+.ville{
+    padding-bottom: 3rem;
+}
+
+.prévisions{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 3em;
+    color: white;
+}
+ .rechercher{
+ padding-top: 10rem;
+ margin-left: 4rem;
+ border-radius: 2em;
+ }
+
+ .temps{
+     padding-bottom: 1rem;
+ }
+
+ .recherchersm{
+    margin-left: 4rem;
+    border-radius: 2em;
+ }

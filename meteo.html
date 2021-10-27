@@ -10,20 +10,124 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--ICI CDN BOOTSRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-    <title>Héros Marvel</title>
+    <title>Meteo LHP7</title>
 </head>
 
 <body>
-<h1 class="Titre">
 
-</h1>
+    <!--MODE DESKTOP-->
+    <h1 class="header fs-2 d-lg-block d-none">
+        Meteo LHP7
+    </h1>
+
+ 
 
 
 
-<!--ICI SCRIPT BOOTSTRAP-->
-                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                                crossorigin="anonymous"></script>
+    <div class="corps row text-white d-lg-flex d-none">
+
+        <h2 class="col-5 ligne1 fs-1">
+            Bienvenue
+        </h2>
+
+
+        <p class="fs-3 col-5 m-0 ">
+            Choisissez votre lieu par défaut
+        </p>
+
+
+        <nav class="navbar col-5 text-center">
+            <form class="form-inline col-12">
+                <input class="recherche form-control mr-sm-2 text" type="search" placeholder="Rechercher une ville"
+                    aria-label="Search">
+            </form>
+        </nav>
+
+    </div>
+    <!--MODE TABLETTE-->
+
+    <div class="headmd row fs-2 text-white d-sm-none d-lg-none d-md-flex m-4">
+        <p class="col-4">Lundi<br>
+            25/10/2021
+        </p>
+        <p class="col text-end">9 : 42</p>
+    </div>
+
+
+    <div class="titremd row text-white">
+        <h2 class="ville col ligne1 fs-1 text-center d-lg-none d-sm-none d-md-block mb-5">
+            Bolbec
+        </h2>
+    </div>
+
+    <div class="temps row text-white mb-5 d-lg-none d-sm-none d-md-flex">
+        <p class="col-4 text-center display-1 border-end">12°</p>
+        <i class="bi bi-cloud-sun-fill display-1 text-center col-4"></i>
+        <p class="col-4 text-center fs-1 border-start">Couvert</p>
+    </div>
+
+    <div class="prévisions row text-white d-lg-none d-sm-none d-md-flex ms-3 me-3">
+        <div class="bloc1 row col-3 border-end ms-2">
+            <i class="bi bi-cloud-sun-fill text-white-fill fs-5 text-center col-3 mt-5">
+            </i>
+            <p class="col-3 text-center text-white fs-5 pe-0">26</p>
+            <p class="col-3 text-center fs-5 mt-5 pe-0">12°C</p>
+            <i class="bi bi-thermometer-half col-3 mt-5"></i>
+
+        </div>
+
+        <div class="bloc1 row col-3 border-end ms-2">
+            <i class="bi bi-cloud-sun-fill text-white-fill fs-5 text-center col-3 mt-5">
+            </i>
+            <p class="col-3 text-center text-white fs-5 pe-0">27</p>
+            <p class="col-3 text-center fs-5 mt-5 pe-0">8°C</p>
+            <i class="bi bi-thermometer-half col-3 mt-5"></i>
+
+        </div>
+        <div class="bloc1 row col-3 border-end ms-2">
+            <i class="bi bi-cloud-sun-fill text-white-fill fs-5 text-center col-3 mt-5">
+            </i>
+            <p class="col-3 text-center text-white fs-5 pe-0">28</p>
+            <p class="col-3 text-center fs-5 mt-5 pe-0">8°C</p>
+            <i class="bi bi-thermometer-half col-3 mt-5"></i>
+
+        </div>
+
+
+        <div class="bloc1 row col-3 ms-2">
+            <i class="bi bi-cloud-sun-fill text-white-fill fs-5 text-center col-3 mt-5">
+            </i>
+            <p class="col-3 text-center text-white fs-5 pe-0">29</p>
+            <p class="col-3 text-center fs-5 mt-5 pe-0">8°C</p>
+            <i class="bi bi-thermometer-half col-3 mt-5"></i>
+
+        </div>
+
+    </div>
+
+    <form class="rechercher form-inline col-10 d-lg-none d-sm-none d-md-block">
+        <input class="recherche form-control mr-sm-2 text" type="search" placeholder="Rechercher une ville"
+            aria-label="Search">
+    </form>
+
+    <!--MODE SMARTPHONE-->
+    <h1 class="head fs-4 text-white d-sm-block d-md-none d-lg-none">
+        Meteo LHP7
+    </h1>
+
+    <form class="recherchersm form-inline col-10 d-sm-block d-md-none d-lg-none">
+        <input class="recherche form-control mr-sm-2 text" type="search" placeholder="Rechercher une ville"
+            aria-label="Search">
+    </form>
+
+
+
+
+
+    <!--ICI SCRIPT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
