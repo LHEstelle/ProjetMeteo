@@ -1,5 +1,5 @@
 body{
-    background-image: url("img/Feuille_dautomne.jpeg");
+    background-image: url("img/pexels-taryn-elliott-3889928.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,13 +21,6 @@ body{
    justify-content: center;
    padding-top: 10rem;
 }
-
-@media (orientation: landscape) {
-    .corpsmd {
-        display: red;
-    }
-  }
-
 
 
 .titremd{
