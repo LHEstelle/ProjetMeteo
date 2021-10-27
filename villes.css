@@ -1,6 +1,8 @@
 .header {
-    background-color: #483BE7;
+    background-color: #45303f;
     color: white;
+    padding:1rem 0 1rem 1rem;
+    opacity: 0.4;
 }
 
 body{
