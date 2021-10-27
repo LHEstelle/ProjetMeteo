@@ -1,0 +1,22 @@
+body
+{
+background-image: url("img/Photoapplimeteo/Feuille\ d\'automne.jpeg");      
+background-position: center; 
+background-size: cover; 
+}
+.btn-image {
+    background-image: url("img/Photoapplimeteo/metero\ nuageux.jpg");
+    background-size: cover;
+            width: 400px;
+            height: 300px;
+            font-size: 3rem;
+}
+.form-group {
+    background-image: url("img/Photoapplimeteo/meteo\ nuit.jpeg");
+    background-size: cover;
+            width: 400px;
+            height: 300px;
+            font-size: 3rem;
+         
+               
+ }
